@@ -348,3 +348,17 @@
     }
   }
 }
+
+.attribution {
+  @include flexCenter;
+  a {
+    cursor: pointer;
+  }
+  @include mobile {
+    flex-direction: column;
+  }
+
+  @include desktop {
+    margin-top: 10rem;
+  }
+}
